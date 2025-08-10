@@ -18,6 +18,6 @@ def makestring():
 
 @nb.njit
 def testprint():
-    print(makestring())
+    print(f"Here is the string {makestring()}")
 
 testprint()
